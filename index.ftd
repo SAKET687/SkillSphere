@@ -1,0 +1,321 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- First-Section:
+
+-- Key-Points:
+
+-- instructor:
+
+-- Courses:
+
+-- note:
+
+-- footer:
+
+-- end: ds.page
+
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.step-2
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: SkillSphere
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+
+-- ds.header-link: Home
+link: /
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Courses
+link: /
+
+-- ds.header-link: Contact 
+link: /
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+variant: outline
+kind: info
+link: /
+
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+variant: outline
+kind: info
+link: /
+
+-- end: ds.row
+
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; First-Section Component --------------------------------------------------------------
+
+-- component First-Section:
+
+-- ds.section-row:
+
+-- ds.column:
+
+-- ds.heading-small: Empower your tech journey with SkillSphere's curated courses for coding enthusiasts at every level!
+-- ds.heading-tiny: See you in the course! 📚✨
+
+-- end: ds.column
+
+-- ftd.image:
+src: https://cdni.iconscout.com/illustration/free/thumb/man-developing-website-on-desk-2040889-1721885.png
+width.fixed.percent: 50 
+
+-- end: ds.section-row
+
+-- end: First-Section
+
+;; --------------------------------------------------------------------------------------
+
+;; Key-Points Section -------------------------------------------------------------------
+
+-- component Key-Points:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.space-between
+flush: full
+
+-- ds.heading-small: Key Points: 
+
+-- ds.row:
+
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+-- ftd.image: https://cdn.dribbble.com/users/730061/screenshots/4543064/illustration.png
+height.fixed.px: 55
+border-radius.px: 65
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: Key-Points
+
+;; --------------------------------------------------------------------------------------
+
+;; instructor component -------------------------------------------------------------------
+
+-- component instructor:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.space-between
+flush: full
+outer-background.solid: $ds.colors.background.step-1
+
+
+-- ds.heading-small: Meet the Course Instructor: 
+
+-- ds.row:
+
+-- ds.heading-tiny: This is Saket Srivastava, a software engineering student passionate about crafting robust web solutions using the MERN Stack. Excited about React, Vite, Socket.io, and exploring competitive programming, I'm pursuing a B.Tech in Computer Science, eager to connect and innovate!
+align: center
+
+-- ftd.image: https://image.freepik.com/free-vector/lazy-people-sitting-floor-working-with-laptop_11197-16.jpg
+width.fixed.percent: 40
+height.fixed.px: 250
+border-radius.px: 65
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: instructor
+
+;; --------------------------------------------------------------------------------------
+
+;; Courses component --------------------------------------------------------------------
+
+-- component Courses:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.space-between
+flush: full
+
+-- ds.heading-small: What are you planning to learn today ?
+
+-- ds.section-row:
+spacing: $ds.spaces.vertical-gap.space-between
+flush: full
+
+-- ds.column:
+
+
+-- ftd.image: web-dev.jpeg
+width.fixed.percent: 40
+height.fixed.px: 200
+
+-- ds.heading-small: Web Developement
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+variant: outline
+kind: info 
+link: / 
+
+
+-- end: ds.column
+
+-- ds.column:
+
+
+-- ftd.image: app.jpg
+width.fixed.percent: 40
+height.fixed.px: 200
+
+
+-- ds.heading-small: App Developement
+align: center
+
+-- ds.phosphor-icon-button: Click here 
+icon: arrow-circle-right
+variant: outline
+kind: info 
+link: / 
+
+
+
+-- end: ds.column
+
+-- end: ds.section-row
+
+-- end: ds.section-column
+
+-- end: Courses
+
+
+;; --------------------------------------------------------------------------------------
+
+;; Note Component -----------------------------------------------------------------------
+
+-- component note:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.space-between
+flush: full
+
+
+-- ds.info-button: This website is built using the 'design-system' package of `fastn`, a full-stack web framework.
+link: https://github.com/fastn-community/design-system/
+
+-- end: ds.section-column
+
+-- end: note
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+;; width: hug-content
+
+-- ds.phosphor-icon-button: Your Coding Journey Awaits !
+icon: globe
+variant: link
+kind: info 
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+variant: link
+kind: info
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+variant: link
+kind: info
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+variant: link
+kind: info
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------
+

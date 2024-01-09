@@ -1,0 +1,5 @@
+-- import: fastn
+
+-- fastn.package: SkillSphere
+
+-- fastn.dependency: fastn-community.github.io/design-system
